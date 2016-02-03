@@ -1,5 +1,5 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="oled_cleardisplay" id="9" x="175" y="-129">
+  <block type="oled_cleardisplay" id="9" x="187" y="-380">
     <next>
       <block type="oled_setcursor" id="18" inline="true">
         <value name="STARTX">
