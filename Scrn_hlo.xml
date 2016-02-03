@@ -1,5 +1,5 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="oled_cleardisplay" id="9" x="143" y="41">
+  <block type="oled_cleardisplay" id="9" x="162" y="-69">
     <next>
       <block type="oled_setcursor" id="18" inline="true">
         <value name="STARTX">
@@ -47,29 +47,93 @@
                                   </block>
                                 </value>
                                 <next>
-                                  <block type="oled_cleardisplay" id="234">
+                                  <block type="oled_cleardisplay" id="309">
                                     <next>
-                                      <block type="oled_setcursor" id="235" inline="true">
+                                      <block type="oled_setcursor" id="310" inline="true">
                                         <value name="STARTX">
-                                          <block type="math_number" id="236">
+                                          <block type="math_number" id="311">
                                             <field name="NUM">20</field>
                                           </block>
                                         </value>
                                         <value name="STARTY">
-                                          <block type="math_number" id="237">
+                                          <block type="math_number" id="312">
                                             <field name="NUM">10</field>
                                           </block>
                                         </value>
                                         <next>
-                                          <block type="oled_drawtext" id="238">
+                                          <block type="oled_drawtext" id="313">
                                             <field name="TEXT">Hello World</field>
                                             <next>
-                                              <block type="robot_delay" id="239" inline="true">
+                                              <block type="robot_delay" id="314" inline="true">
                                                 <value name="DELAY">
-                                                  <block type="math_number" id="240">
+                                                  <block type="math_number" id="315">
                                                     <field name="NUM">100</field>
                                                   </block>
                                                 </value>
+                                                <next>
+                                                  <block type="oled_cleardisplay" id="317">
+                                                    <next>
+                                                      <block type="oled_setcursor" id="318" inline="true">
+                                                        <value name="STARTX">
+                                                          <block type="math_number" id="319">
+                                                            <field name="NUM">25</field>
+                                                          </block>
+                                                        </value>
+                                                        <value name="STARTY">
+                                                          <block type="math_number" id="320">
+                                                            <field name="NUM">10</field>
+                                                          </block>
+                                                        </value>
+                                                        <next>
+                                                          <block type="oled_drawtext" id="321">
+                                                            <field name="TEXT">Hello World</field>
+                                                            <next>
+                                                              <block type="robot_delay" id="322" inline="true">
+                                                                <value name="DELAY">
+                                                                  <block type="math_number" id="323">
+                                                                    <field name="NUM">100</field>
+                                                                  </block>
+                                                                </value>
+                                                                <next>
+                                                                  <block type="oled_cleardisplay" id="234">
+                                                                    <next>
+                                                                      <block type="oled_setcursor" id="235" inline="true">
+                                                                        <value name="STARTX">
+                                                                          <block type="math_number" id="236">
+                                                                            <field name="NUM">30</field>
+                                                                          </block>
+                                                                        </value>
+                                                                        <value name="STARTY">
+                                                                          <block type="math_number" id="237">
+                                                                            <field name="NUM">10</field>
+                                                                          </block>
+                                                                        </value>
+                                                                        <next>
+                                                                          <block type="oled_drawtext" id="238">
+                                                                            <field name="TEXT">Hello World</field>
+                                                                            <next>
+                                                                              <block type="robot_delay" id="239" inline="true">
+                                                                                <value name="DELAY">
+                                                                                  <block type="math_number" id="240">
+                                                                                    <field name="NUM">100</field>
+                                                                                  </block>
+                                                                                </value>
+                                                                              </block>
+                                                                            </next>
+                                                                          </block>
+                                                                        </next>
+                                                                      </block>
+                                                                    </next>
+                                                                  </block>
+                                                                </next>
+                                                              </block>
+                                                            </next>
+                                                          </block>
+                                                        </next>
+                                                      </block>
+                                                    </next>
+                                                  </block>
+                                                </next>
                                               </block>
                                             </next>
                                           </block>
