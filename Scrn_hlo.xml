@@ -43,46 +43,8 @@
                           </block>
                         </value>
                         <next>
-                          <block type="oled_drawtext" id="122">
-                            <field name="TEXT">.  .</field>
-                            <next>
-                              <block type="oled_setcursor" id="134" inline="true">
-                                <value name="STARTX">
-                                  <block type="math_number" id="135">
-                                    <field name="NUM">10</field>
-                                  </block>
-                                </value>
-                                <value name="STARTY">
-                                  <block type="math_number" id="136">
-                                    <field name="NUM">35</field>
-                                  </block>
-                                </value>
-                                <next>
-                                  <block type="oled_drawtext" id="137">
-                                    <field name="TEXT">(   )</field>
-                                    <next>
-                                      <block type="oled_setcursor" id="123" inline="true">
-                                        <value name="STARTX">
-                                          <block type="math_number" id="124">
-                                            <field name="NUM">10</field>
-                                          </block>
-                                        </value>
-                                        <value name="STARTY">
-                                          <block type="math_number" id="125">
-                                            <field name="NUM">40</field>
-                                          </block>
-                                        </value>
-                                        <next>
-                                          <block type="oled_drawtext" id="126">
-                                            <field name="TEXT">  __</field>
-                                          </block>
-                                        </next>
-                                      </block>
-                                    </next>
-                                  </block>
-                                </next>
-                              </block>
-                            </next>
+                          <block type="oled_drawtext" id="138">
+                            <field name="TEXT">:) :) :) :) :)</field>
                           </block>
                         </next>
                       </block>
